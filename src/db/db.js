@@ -1,8 +1,10 @@
+// import vegetables from './../assets/images/vegetables.jpg'
+
 export const images = [
     {
       "id": "1",
       "tag": "food",
-      "url": "/src/assets/images/vegetables.jpg"
+      "url": "./../assets/images/vegetables.jpg"
     },
     {
       "id": "2",

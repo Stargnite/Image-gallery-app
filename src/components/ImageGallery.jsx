@@ -12,10 +12,6 @@ import {
 import { CSS } from "@dnd-kit/utilities";
 import Navbar from "./navbar/Navbar";
 
-
-
-
-
 const SortableImages = ({ image }) => {
   const { attributes, listeners, setNodeRef, transform, transition } =
     useSortable({ id: image.id });
