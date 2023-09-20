@@ -1,10 +1,10 @@
-// import vegetables from './../assets/images/vegetables.jpg'
+import vegetables from './../assets/images/vegetables.jpg'
 
 export const images = [
     {
       "id": "1",
       "tag": "food",
-      "url": "./../assets/images/vegetables.jpg"
+      "url": vegetables,
     },
     {
       "id": "2",
