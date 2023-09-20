@@ -1,5 +1,5 @@
 import classes from "./AuthForm.module.css";
-import Navbar from "../components/navbar/navbar";
+import Navbar from "./../components/navbar/Navbar.jsx";
 import { useState, useRef, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { signInWithEmailAndPassword } from "firebase/auth";
