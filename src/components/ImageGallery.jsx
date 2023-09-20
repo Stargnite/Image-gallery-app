@@ -10,7 +10,7 @@ import {
   arrayMove,
 } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
-import Navbar from "./navbar/navbar";
+import Navbar from "./navbar/Navbar ";
 
 const SortableImages = ({ image }) => {
   const { attributes, listeners, setNodeRef, transform, transition } =
