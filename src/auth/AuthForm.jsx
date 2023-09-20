@@ -50,7 +50,7 @@ const AuthForm = () => {
     <div>
       <div className={classes.container}></div>
       <div className={classes.auth_page}>
-      <Navbar />
+        <Navbar />
         <div className="centered">
           <h1>Kindly Log in to view gallery</h1>
         </div>
