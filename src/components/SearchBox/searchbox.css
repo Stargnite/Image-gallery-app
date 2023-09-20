@@ -10,7 +10,6 @@
   width: 25rem;
   padding: 0.5rem;
   margin-top: 2rem;
-
   background: none;
   color: #333;
   font-size: larger;
@@ -21,7 +20,13 @@
   border-radius: 10px;
   padding: 0.5rem;
   margin-top: 2rem;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
   color: #333;
   font-size: larger;
+}
+
+@media screen and  (max-width: 300px) {
+  .searchbox {
+    width: 20rem;
+  }
 }
