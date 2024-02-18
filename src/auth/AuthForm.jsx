@@ -59,7 +59,7 @@ const AuthForm = () => {
           <form onSubmit={submitLogin}>
             <div className={classes.control}>
               <label htmlFor="email">Your Email</label>
-              <input type="email" id="email" required ref={emailInputRef} />
+              <input type="email" id="email" required ref={emailInputRef} placeholder="Use this: test@example.com" />
             </div>
             <div className={classes.control}>
               <label htmlFor="password">Your Password</label>
@@ -68,6 +68,7 @@ const AuthForm = () => {
                 id="password"
                 required
                 ref={passwordInputRef}
+                placeholder="Use this: 123456"
               />
             </div>
             <div className={classes.actions}>
